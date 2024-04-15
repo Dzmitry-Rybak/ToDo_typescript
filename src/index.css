@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    scrollbar-width: auto;
+    scrollbar-color: #c2c2c2 #5C5C5C;
+  }
+  
+  html,body {
+    height: 100%;
+  }
+  
+  
+  ul,
+  li,
+  dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
